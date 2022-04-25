@@ -58,7 +58,7 @@ public class CarsController {
     }
 
     /**
-     * Method that change the status of the car 
+     * Method that change the "onRoad" status of the car 
      * 
      * @param id of the car to change status
      * @return the updated car

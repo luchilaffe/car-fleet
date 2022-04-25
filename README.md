@@ -1,6 +1,6 @@
-#Car Fleet Manager
+# Car Fleet Manager
 
-#The specification
+# The specification
 
 Write a REST-based API service that helps to manage car fleet. Users should be able to:
 * Add a new car to the fleet. Cars have brands, models, and years of production (of course, you do NOT need to verify if those values make sense!) as well as a Boolean flag that indicates whether the car is on the road (true) or in a garage (false).
@@ -8,7 +8,7 @@ Write a REST-based API service that helps to manage car fleet. Users should be a
 * Return list of all cars in the fleet.
 * Change the status of the car (in the road vs. in the garage)
 
-##Additional requirements
+## Additional requirements
 
 * A format of all HTTP POST payloads and returned body should be JSON, encoded as UTF-8.
 * The car fleet should be persisted and survive a restart of the service. You can use any persistence method you would like.
@@ -16,7 +16,7 @@ Write a REST-based API service that helps to manage car fleet. Users should be a
 * You can use any language you have experience with, i.e., mentioned in your CV or LinkedIn.
 * You can use any library as a dependency as long as you know how the library works and can justify the choice during discussion.
 
-#Assumptions
+# Assumptions
 * The exercise is implemented in Java with Spring Framework.
 * There is only one car fleet.
 * Only authenticated users can manage the fleet.
@@ -24,16 +24,16 @@ Write a REST-based API service that helps to manage car fleet. Users should be a
 * Users should be add by REST without security
 * Users should be authenticated to get the Bearer token to use the Cars API.
 
-#Enviroment
+# Environment
 You can configure which environment you want to use in the file  __src/main/resources/application.properties__ . The value can be set to *dev* or *test*
 
 In the file of the environment selected you can set the properties of the DB connection and the JWT key. If you want to persist data in PostgreSQL you should specify the connection attributes.
 
 The server port set in the environment's properties is 8088.
 
-#Endpoints
+# Endpoints
 
-##Users
+## Users
 
 Add a user to DB
 
@@ -86,10 +86,10 @@ Modify the "on road" status of the car
 }
 ```
 
-##Testing
+## Testing
 No test have been develop due to lack of time.
 
-##Possible improvements
+## Possible improvements
 * There could be different user roles.
 * Different fleets could be managed.
 * Tests should be done.

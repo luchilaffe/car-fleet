@@ -22,42 +22,42 @@ public class Users {
     private String pass;
 
     /**
-     * @return el id
+     * @return the id
      */
     public Long getId() {
         return id;
     }
 
     /**
-     * @param id el id a establecer
+     * @param id to set
      */
     public void setId(Long id) {
         this.id = id;
     }
 
     /**
-     * @return el name
+     * @return the user
      */
     public String getUser() {
         return user;
     }
 
     /**
-     * @param user el name a establecer
+     * @param user to set
      */
     public void setUser(String user) {
         this.user = user;
     }
 
     /**
-     * @return el pass
+     * @return the pass
      */
     public String getPass() {
         return pass;
     }
 
     /**
-     * @param pass el pass a establecer
+     * @param pass to set
      */
     public void setPass(String pass) {
         this.pass = pass;

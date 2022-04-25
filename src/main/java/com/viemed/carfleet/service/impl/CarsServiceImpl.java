@@ -58,7 +58,7 @@ public class CarsServiceImpl implements ICarsService {
         if (!response.isEmpty()) {
             return response;
         } else {
-            throw new NotFoundException("There are no Superheroes.");
+            throw new NotFoundException("There are no Cars.");
         }
     }
     
